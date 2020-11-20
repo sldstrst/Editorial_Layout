@@ -1,0 +1,40 @@
+@import "http://fonts.fontstorage.com/import/robotoslab.css";
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto Slab';
+    display: block;
+    margin: 0 auto 23px;
+    color: #7f888f;
+    background-color: #ffffff;
+}
+
+.wrapper {
+    margin: 0% 6%;
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+}
+
+header {
+    font-size: 18px;
+    width: 100%;
+    background-color: r#ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border-bottom: 5px solid #f56a6a;
+}
+
+.bold_text {
+    font-weight: bold;
+}
+
+.wrapper .header_info span {
+    color: #3d4449;
+}
+
+.header_info {
+    margin-bottom: 1.15em;
+}

@@ -1,0 +1,67 @@
+@import "http://fonts.fontstorage.com/import/robotoslab.css";
+.main_elements_second {
+    margin-top: 2.2em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: max-content;
+}
+
+.mes_header h2 {
+    color: #3d4449;
+    border-bottom: 4px solid #f56a6a;
+    width: max-content;
+    margin: 0;
+}
+
+.mes_set_block {
+    margin-top: 1em;
+}
+
+.mes_block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.mes__set {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    margin-bottom: 4em;
+}
+
+.mes_separate_block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 27em;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.164);
+    flex-direction: row;
+}
+
+.mes_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.mes_text {
+    font-family: 'Open Sans', sans-serif;
+    width: 19em;
+}
+
+.mes_text h3 {
+    font-family: 'Roboto Slab';
+    font-size: 1.6em;
+    margin: 1em 0 0.5em 0;
+    color: #3d4449;
+}
